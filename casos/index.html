@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Seus Casos:</h1>
+    </header>
+    <main>
+        <section id="oCaso">
+            <h4><span>Caso:</span> 151221-41539</h4>
+            <p><span>DESCRIÇÃO:</span> A menina desaparecida</p>
+            <button id="button">acessar caso</button>
+        </section>
+    </main>
+
+    <script>
+        const Botao = document.getElementById("button");
+
+        Botao.addEventListener("click", function(){
+            window.open("https://docs.google.com/document/d/1neExxRCazq0UzvW6moabmSd7LNK4p4_DgWFF38kaOLg/edit?usp=sharing", "_blank");
+        })
+    </script>
+</body>
+</html>
